@@ -81,6 +81,29 @@ table {
 
 }
 
+.iconleft{
+	height: 50px;
+	width: 30px;
+	background: url(../images/leftarrow1.ico) no-repeat;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 155px;
+	z-index: 20;
+	
+}
+
+.iconright{
+	height: 50px;
+	width: 30px;
+	background: url(../images/rightarrow1.ico) no-repeat;
+	float: right;
+	position: absolute;
+	top: 155px;
+	right: 0px;
+	z-index: 20;
+}
+
 .text{
 	height: 100px;
 	width: 280px;
