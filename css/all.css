@@ -57,14 +57,18 @@ table {
 	background: #F4EFEB;
     margin: auto;
     z-index: 0;
+    position: relative;
 }
 
 .header{
 	height: 85px;
 	width: 768px;
 	background: white;
-	margin: auto;
-	z-index: 2;
+	left: 116px;
+	z-index: 10;
+	position: absolute;
+	top: 0px;
+
 }
 
 .slide{
@@ -72,18 +76,20 @@ table {
 	width: 1000px;
 	position: relative;
 	z-index: 1;
-	background: url(../images/slides-1.jpg) no-repeat;
+	margin: auto;
+	/*background: url(../images/slides-1.jpg) no-repeat;*/
 
 }
 
 .text{
-	height: 80px;
+	height: 100px;
 	width: 280px;
 	background: #018DA4;
 	position: absolute;
 	bottom: 40px;
 	left: 116px;
 	opacity:0.7;
+	z-index: 10;
 }
 
 .text p{	
