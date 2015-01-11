@@ -49,8 +49,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
 .wrap{
 	height: 100%;
 	width: 1000px;
@@ -580,3 +578,121 @@ li .right{
 	height: 15px;
 	width: 15px;
 }
+
+.contentevent{
+	height: 380px;
+	width: 768px;
+	margin: auto;
+	background: #F4EFEB;
+	margin-top: 10px;
+}
+
+.textevent{
+	height: 50px;
+	width: 280px;
+	background: #018DA4;
+	position: absolute;
+	padding-top: 5px;
+	top: 245px;
+	left: 115px;
+	opacity:0.7;
+	z-index: 100;
+	text-align: center;
+}
+
+.textevent p{	
+	color: white;
+	font-size: 140%;
+	font-weight: bolder;
+}
+
+.topevent{
+	height: 180px;
+	width: 768px;
+	background: grey;
+	margin-top: 10px;
+}
+
+.eventevent{
+	height: 180px;
+	width: 256px;
+	background: #F4EFEB;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	display: block;
+	position: relative;
+}
+
+.div1{
+	
+	position: absolute;
+	bottom: 0px;
+	right: 56px;
+	/*opacity: 0.8;*/
+	height: 50px;
+	width: 150px;
+	background: #FF725E;
+}
+
+.div2{
+	
+	position: absolute;
+	bottom: 0px;
+	right: 6px;
+	/*opacity: 0.8;*/
+	height: 50px;
+	width: 50px;
+	background: #578427;
+}
+
+.div2 h5{
+	height: 15px;
+	width: 10px;
+	color :white;
+	font-size: 100%;
+	/*position: absolute;
+	bottom: 0px;
+	right: 0px;*/
+	margin: 0px 0px 0px 8px;
+}
+
+.div2 h3{
+	height: 30px;
+	width: 10px;
+	color: white;
+	margin: 4px 0px 0px 6px;
+	/*font-size: 100%;*/
+	/*position: absolute;
+	bottom: 0px;
+	right: 0px;*/
+}
+
+
+
+.eventevent div p{
+	font-weight: bolder;
+	color: white;
+	font-size: 120%;
+	margin: 8px 0px 0px 10px;
+	text-decoration: none;
+}
+
+#abgne-block{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#abgne-block {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	width: 650px;	/* (圖片的寬度 +  _margin) * 數量 - _margin */
+	height: 100px;	/* 圖片的高度 */
+}
+#abgne-block{
+	position: absolute;
+}
+#abgne-block{
+	border: none;
+}
+

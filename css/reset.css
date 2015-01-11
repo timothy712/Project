@@ -104,6 +104,7 @@
 
 @media only screen and (max-width: 480px) {
 
+
 .wrap{
 	display: none;
 }
@@ -200,6 +201,7 @@
 	margin-top: 5px;
 	background: #F4EFEB;
 	float: none;
+	display: block;
 }
 
 .topbarreset{
@@ -213,7 +215,7 @@
 }
 
 .topbaractionreset{
-	height: 30px;
+	height: 60px;
 	width: 100%;
 	background: #4EB3C5;
 	font-size: 50%;
@@ -244,18 +246,19 @@
 
 .barreset{
 	width: 100%;
-	height: 100%;
+	height: 60px;
 	background: pink;
 	float: right;
-	margin-top: -3px;
+	margin-top: 0px;
 	border: grey 1px solid;
+	z-index: 10000;
 }
 
 .menureset{
-	height: 30px;
+	height: 60px;
 	width: 20%;
 	float: right;
-	margin: 0px -2px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 10px 0px 0px 0px;
 	color: white;
 	background: #91B17A;
@@ -263,6 +266,7 @@
 	font-weight: bolder;
 	text-align: center;
 	border: grey 1px solid;
+	z-index: 10000;
 }
 
 .contentreset{
@@ -516,16 +520,16 @@ li .rightreset{
 }
 
 .footerreset{
-	height: 250px;
+	height: 200px;
 	width: 100%;
 	background: #515151;
 	position: absolute;
-	top: 1250px;
+	top: 1300px;
 
 }
 
 .footercontentreset{
-	height: 250px;
+	height: 200px;
 	width: 100%;
 	background: #515151;
 	margin: 10px 0px 0px 0px;
@@ -630,6 +634,235 @@ li .rightreset{
 }
 
 .footerreset hr{
+	border: 0;
+	height: 1px;
+	background-color: grey;
+}
+
+.iconcalendar{
+	height: 50px;
+	width: 50px;
+	background: url(../images/calendar.ico) no-repeat;
+}
+
+.contenteventreset{
+	height: 380px;
+	width: 100%;
+	margin: auto;
+	background: #F4EFEB;
+	margin-top: 10px;
+}
+
+.textevent{
+	height: 50px;
+	width: 280px;
+	background: #018DA4;
+	position: absolute;
+	padding-top: 5px;
+	top: 245px;
+	left: 115px;
+	opacity:0.7;
+	z-index: 100;
+	text-align: center;
+}
+
+.texteventreset p{	
+	color: white;
+	font-size: 140%;
+	font-weight: bolder;
+}
+
+.topeventreset{
+	height: 180px;
+	width: 100%;
+	background: grey;
+	margin-top: 10px;
+}
+
+.eventeventreset{
+	height: auto;
+	width: 100%;
+	background: #F4EFEB;
+	
+	margin: 0px 0px 0px 0px;
+	display: block;
+	position: relative;
+}
+
+.eventimg{
+	width: 100%;
+	height: auto;
+}
+
+.div1reset{
+	
+	position: absolute;
+	bottom: 0px;
+	right: 56px;
+	/*opacity: 0.8;*/
+	height: 50px;
+	width: 150px;
+	background: #FF725E;
+}
+
+.div2reset{
+	
+	position: absolute;
+	bottom: 0px;
+	right: 6px;
+	/*opacity: 0.8;*/
+	height: 50px;
+	width: 50px;
+	background: #578427;
+}
+
+.div2reset h5{
+	height: 15px;
+	width: 10px;
+	color :white;
+	font-size: 100%;
+	/*position: absolute;
+	bottom: 0px;
+	right: 0px;*/
+	margin: 0px 0px 0px 8px;
+}
+
+.div2reset h3{
+	height: 30px;
+	width: 10px;
+	color: white;
+	margin: 4px 0px 0px 6px;
+	/*font-size: 100%;*/
+	/*position: absolute;
+	bottom: 0px;
+	right: 0px;*/
+}
+
+
+
+.eventeventreset div p{
+	font-weight: bolder;
+	color: white;
+	font-size: 120%;
+	margin: 8px 0px 0px 10px;
+	text-decoration: none;
+}
+
+.footereventreset{
+	height: 200px;
+	width: 100%;
+	background: #515151;
+	position: absolute;
+	top: 1646px;
+
+}
+
+.footercontenteventreset{
+	height: 200px;
+	width: 100%;
+	background: #515151;
+	margin: 10px 0px 0px 0px;
+}
+
+.footertopebentreset{
+	height: 30px;
+	width: 100%;
+	background: #515151;
+	text-align: center;
+	
+}
+
+.footermidebentreset{
+	height: 30px;
+	width: 100%;
+	background: #515151;
+	text-align: center;
+}
+
+.footermidebentreset h2{
+	font-size: 105%;
+	color: #F4EFEB;
+	display: block;
+	margin-top: 0px;
+	/*margin-bottom: 5px;*/ 
+	font-weight: bolder;
+}
+
+.footereventreset h1{
+	color: #F4EFEB;
+	font-size: 105%;
+	font-weight: bolder;
+	
+	
+}
+
+
+.footerboteventreset{
+	height: 30px;
+	width: 100%;
+	background: #515151;
+	text-align: center;
+}
+
+.footereventiconreset{
+	margin: 0px 0px 0px 140px;
+
+}
+
+.iconeventreset{
+	float: left;
+	height: 25px;
+	width: 25px;
+	margin: 0px 11px 0px 0px;
+
+}
+
+.footerbuttoneventreset {
+	-moz-box-shadow:inset 0px 1px 0px 0px #009AB2;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #009AB2;
+	box-shadow:inset 0px 1px 0px 0px #009AB2;
+	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#009AB2', endColorstr='#009AB2');
+	background-color:#009AB2;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0px;
+	border:1px solid #009AB2;
+	display:inline-block;
+	color:white;
+	font-family:Arial Black;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	margin: 0px 0px 0px 0px;
+	
+}
+.footerbuttoneventreset:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.footerbuttoneventreset:active {
+	
+	top:1px;
+}
+
+.footereventreset hr{
 	border: 0;
 	height: 1px;
 	background-color: grey;
